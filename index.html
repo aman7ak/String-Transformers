@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Transformers</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>String Transformers</h1>
+      <p>Enter your string...</p>
+      <input id="input" type="text" placeholder="Enter string..."/>
+      <div class="transformer">
+        <div class="box">
+          <span>Upper Case</span>
+          <input type="text" readonly id="uppercase"/>
+        </div>
+        <div class="box">
+          <span>Lower Case</span>
+          <input type="text" readonly id="lowercase"/>
+        </div>
+        <div class="box">
+          <span>Camel case</span>
+          <input type="text" readonly id="camelcase"/>
+        </div>
+        <div class="box">
+          <span>Pascal case</span>
+          <input type="text" readonly id="pascalcase"/>
+        </div>
+        <div class="box">
+          <span>Snake case</span>
+          <input type="text" readonly id="snakecase"/>
+        </div>
+        <div class="box">
+          <span>Kebab case</span>
+          <input type="text" readonly id="kebabcase"/>
+        </div>
+        <div class="box">
+          <span>Trim</span>
+          <input type="text" readonly id="trim"/>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
