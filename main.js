@@ -9,7 +9,7 @@ let kebabcase = document.getElementById("kebabcase");
 let trim = document.getElementById("trim");
 
 input.addEventListener("input", (e) => {
-  value = input.value;
+  value = input.value.trim();
   display(value);
 });
 
